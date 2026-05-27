@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surtipagina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="" class="logo">logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" alt="menu">
+            </label>
+            
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="Servicios.html">servicios</a></li>
+                    <li><a href="productos.html">productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+          
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>imagen</th>
+                                        <th>nombre</th>
+                                        <th>precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                               
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+        
+        <section class="blog container">
+        <h2>Servicios</h2>
+        <p>Los mejores planes para tu negocio</p>
+        <div class="blog-content">
+            <div class="blog-1">
+                <img src="imagenes/delivery" alt="">
+                <div class="blog-txt">
+                    <h2>Delivery</h2>
+                    <p>Te llevamos cualquier producto de tu eleccion a la puerta de tu casa</p>
+                    <a href="Contacto.html" class="btn-4">Contacto</a>
+                </div>
+            </div>
+            <div class="blog-1">
+                <img src="imagenes/plan colmado.png" alt="">
+                <div class="blog-txt">
+                    <h2>Plan colmado</h2>
+                    <p>Te brindaremos los productos necesarios al mejor precio para que puedas</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="21">
+                        comprar   </a>
+                </div>
+            </div>
+            <div class="blog-1">
+                <img src="imagenes/plan ambulante.png" alt="">
+                <div class="blog-txt">
+                    <h2>Plan ambulante</h2>
+                    <p>Te venderemos de forma que la calidad este sobre el precio. ideal para personas que quieren empezar a emprender</p>
+                   <a href="#" class="agregar-carrito btn-3" data-id="22">
+                        comprar   </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="Third.js"></script>
+    
+</body>
+</html>
